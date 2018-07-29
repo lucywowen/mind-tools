@@ -9,23 +9,20 @@ that can be replicated on most modern computers. Here are a few example use
 cases for a scientist:
 - A sharable computing environment so that all members of your lab have access
 to the same tools
-- An easily replicable experiment that can be run from anywhere (like
-  autoFR or adaptiveFR).
+- An easily replicable experiment that can be run from anywhere.
 - An analysis pipeline with all of the necessary code to replicate figures and
   statistics from a published paper.
-- An application that runs Jupyter server so that your class can access the same
+- An application that runs Jupyter server so that you can access the same
 data and software without installing anything locally.
 
 # Getting Started
 
-+ Clone this repo: `git clone https://github.com/ContextLab/CDL-tutorials.git`
++ Clone this repo: `https://github.com/ContextLab/mind-tools`
 
 + Install [Docker](https://www.docker.com/) and [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 
-+ Follow the instructions in Dockerfile. This file serves as a set of
-instructions for building a docker image. If you are unsure about a particular
-line, refer to Dockerfile_complete, which is a file with all of the instructions
-already filled in.
++ Follow the instructions in Dockerfile_example. This file serves as a set of
+instructions for building a docker image.
 
 + To build the docker image, make sure you have docker running, navigate to your
 local copy of this repo and execute the line: `docker build -t cdl .`. This will
