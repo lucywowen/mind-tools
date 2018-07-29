@@ -17,7 +17,7 @@ data and software without installing anything locally.
 
 # Getting Started
 
-+ Clone this repo: `https://github.com/ContextLab/mind-tools`
++ Clone this repo: `git clone https://github.com/ContextLab/mind-tools`
 
 + Install [Docker](https://www.docker.com/) and [Google Chrome](https://www.google.com/chrome/browser/desktop/index.html)
 
