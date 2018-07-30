@@ -1,6 +1,4 @@
-
 #  example functions
-
 
 def add_it(x):
 
